@@ -46,7 +46,7 @@ def app(df, X, y):
     A18 = st.slider("Max Voltage Discharging", float(df["Max_Voltage_Discharging"].min()), float(df["Max_Voltage_Discharging"].max()))
     A19 = st.slider("Min Voltage Charging", float(df["Min_Voltage_Charging"].min()), float(df["Min_Voltage_Charging"].max()))
     A20 = st.slider("Time constant current", float(df["Time_constant_current"].min()), float(df["Time_constant_current"].max()))
-    A21 = st.slider("Charging count", float(df["Charging_time"].min()), float(df["Charging_time"].max()))
+    A21 = st.slider("Charging time (in nano sec)", float(df["Charging_time"].min()), float(df["Charging_time"].max()))
    
     
 
