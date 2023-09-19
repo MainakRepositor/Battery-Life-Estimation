@@ -17,7 +17,7 @@ def app(df, X, y):
     st.markdown(
         """
             <p style="font-size:25px">
-                This app uses <b style="color:green">Random Forest Regressor</b> for the Early Prediction of Milk Quality.
+                This app uses <b style="color:green">Random Forest Regressor</b> for Battery Life Estimation.
             </p>
         """, unsafe_allow_html=True)
     k = 0.11
